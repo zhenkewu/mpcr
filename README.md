@@ -24,7 +24,7 @@ What are the main functions?
 Instructions:
 -------------
 
--Prepare your dataset
+- Prepare your dataset
 
 You need to specify treatment arm, cluster number, primary outcome, covariates.
 Note that suppose there are N pairs, then the first pair of clusters are numbered
