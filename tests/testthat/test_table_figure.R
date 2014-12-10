@@ -4,7 +4,7 @@ library(sandwich)
 library(mpcr)
 
 ## read in data set:
-#dat = read.csv('/Users/zhenkewu/Dropbox/ZW/working_projects/ZW_R_packages/mpcr_test/data/data_5.csv',header=TRUE)
+#dat = read.csv('XXXX.csv',header=TRUE) #<-- replace with your own data; format is in README.md
 
 res = mpcr(dat,
            arm = "tx",

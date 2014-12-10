@@ -6,6 +6,10 @@ devtools::install_github("zhenkewu/mpcr")
 ```
 Why should someone use `mpcr`?
 ------------------------------
+- Estimation of Treatment Effects in Matched-Pair Cluster Randomized Trials by Calibrating Covariate Imbalance Between Clusters. We address estimation of intervention effects in experimental designs in which 
+    - (a) interventions are assigned at the cluster level; 
+    - (b) clusters are selected to form pairs, matched on observed characteristics; and 
+    - (c) intervention is assigned to one cluster at random within each pair. One goal of policy interest is to estimate the average outcome if all clusters in all pairs are assigned control versus if all clusters in all pairs are assigned to intervention. In such designs, inference that ignores individual level covariates can be imprecise because cluster-level assignment can leave substantial imbalance in the covariate distribution between experimental arms within each pair. However, most existing methods that adjust for covariates have estimands that are not of policy interest. We propose a methodology that explicitly balances the observed covariates among clusters in a pair, and retains the original estimand of interest.
 
 How does it compare to other existing solutions?
 ------------------------------------------------
